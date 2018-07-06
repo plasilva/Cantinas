@@ -1,0 +1,31 @@
+<a href="#/cantinas"class="btn glyphicon glyphicon-menu-left">  Voltar</a>
+<p></p>
+<div class="panel panel-default" ng-init="getcantinas()">
+  <div class="panel-heading">
+  	<h3 class="panel-title">{{cantinas.model}}</h3>
+</div>
+  <div class="panel-body">
+    <div class="row">
+    	<div class="col-md-4">
+        <img src="{{cantinas.image_url}}">
+      </div>
+       <div class="col-md-4">
+        <p>{{cantinas.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Cantina: {{cantinas.cantina}}</li>
+          <li class="list-group-item">Sopa: {{cantinas.sopa}}</li>
+          <li class="list-group-item">Carne: {{cantinas.carne}}</li>
+          <li class="list-group-item">Peixe: {{cantinas.peixe}}</li>
+          <li class="list-group-item">Vegetariano: {{cantinas.vegetariano}}</li>
+          <li class="list-group-item">Sobremesa: {{cantinas.sobremesa}}</li>
+          <li class="list-group-item">Data: {{cantinas.data}}</li>
+        </ul>
+        <a target="_blank" href="{{cantinas.buy_url}}" class="btn btn-primary">Comprar</a>
+      </div>
+  </div>
+</div>
+</div>
+
+<div class="pull-right">
+  <a href="#!/cantinas/edit/{{cantinas._id}}">Editar</a> | <a href="#" ng-click="removecantinas(cantinas._id)">Eliminar</a>
+</div>

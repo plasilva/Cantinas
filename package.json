@@ -1,0 +1,16 @@
+{
+  "name": "vapestore",
+  "version": "1.0.0",
+  "description": "vapestore app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "^4.10.8"
+  },
+  "author": "Mike Soares",
+  "license": "ISC"
+}

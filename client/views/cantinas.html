@@ -1,0 +1,21 @@
+<div class="panel panel-default" ng-init="getcantinas()">
+  <div class="panel-heading">
+  	<h3 class="panel-title">Ementas</h3>
+</div>
+  <div class="panel-body">
+    <div class="row">
+    	<div ng-repeat="cantinas in cantinas">
+    		<div class="col-md-6">
+    			<div class=col-md-6>
+    				<h4>{{cantinas.cantina}}</h4>
+    				<p>{{cantinas.data}}</p>
+    				<a class="btn btn-primary" href="
+    				#!/cantinas/details/{{cantinas._id}}">Ver Detalhes</a>    			
+    			</div>
+    			<div class=col-md-6>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>

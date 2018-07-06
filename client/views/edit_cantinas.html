@@ -1,0 +1,44 @@
+<a href="#/cantinas"class="btn glyphicon glyphicon-menu-left">  Voltar</a>
+<p></p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  	<h3 class="panel-title">Edit cantinas</h3>
+</div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-12">
+<form ng-submit="updatecantinas()" ng-init="getcantinas()">
+  <div class="form-group">
+    <label>Cantina</label>
+    <input type="text" class="form-control" ng-model="cantinas.cantina" placeholder="brand">
+  </div>
+   <div class="form-group">
+    <label>Sopa</label>
+    <input type="text" class="form-control" ng-model="cantinas.sopa" placeholder="model">
+  </div>
+   <div class="form-group">
+    <label>Carne</label>
+    <input type="text" class="form-control" ng-model="cantinas.carne" placeholder="wattage">
+  </div>
+   <div class="form-group">
+    <label>Peixe</label>
+    <input type="text" class="form-control" ng-model="cantinas.peixe" placeholder="battery">
+  </div>
+   <div class="form-group">
+    <label>Vegetariano</label>
+    <input type="text" class="form-control" ng-model="cantinas.vegetariano" placeholder="description">
+  </div>
+  <div class="form-group">
+    <label>Sobremesa</label>
+    <input type="text" class="form-control" ng-model="cantinas.sobremesa" placeholder="price">
+  </div>
+    <div class="form-group">
+    <label>Data</label>
+    <input type="text" class="form-control" ng-model="cantinas.data" placeholder="price">
+  </div>
+  <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+</div>
+  </div>
+</div>
+</div>

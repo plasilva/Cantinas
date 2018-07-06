@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Ementas IPG</title>
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+      <a class="navbar-brand" href="#">Ementas IPG</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+      <li><a class="" href="
+            #!/cantinas/add">Adicionar Ementa</a></li>
+    </ul>
+       <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>-->
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+    	<div class="row">
+    		<div class="col-md-12">
+    			<div ng-view></div>
+    		</div>	
+    	</div>
+      </div>
+
+    </main><!-- /.container -->
+</body>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/bower_components/angular/angular.min.js"></script>
+	<script src="/app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+	<script src="/bower_components/angular/angular.js"></script>
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/controllers/cantinas.js"></script>
+</html>
